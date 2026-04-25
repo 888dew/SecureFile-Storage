@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment files (NEVER commit)
+.env
+.env.local
+.env.*.local
+
+# Uploads directory (user data)
+uploads/
+
+# Test coverage
+coverage/
+
+# Logs
+*.log
+logs/
+
+# Editor
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Docker (local dev volumes)
+.docker-volumes/
